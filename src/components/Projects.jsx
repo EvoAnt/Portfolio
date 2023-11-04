@@ -15,13 +15,10 @@ import { AiFillGithub } from "react-icons/ai";
 
 const Projects = () => {
   return (
-    <div>
-      <h1 className="text-[46px] text-center mt-28">PROJECTS</h1>
-      <div
-        id="Projects"
-        className="flex flex-row flex-wrap items-center justify-center mt-24"
-      >
-        <Card className="mt-6 w-96 mb-6 mx-4 h-full">
+    <div id="Projects">
+      <h1 className="text-[46px] underline underline-offset-4 text-center mt-28"><span className="text-purple-500">PROJECTS</span></h1>
+      <div className="flex flex-row flex-wrap items-center justify-center mt-24">
+        <Card data-aos="zoom-in" className="mt-6 w-96 mb-6 mx-4 h-full">
           <CardHeader color="blue-gray" className="relative h-56">
             <img src={solecity} alt="card-image" />
           </CardHeader>
@@ -48,7 +45,7 @@ const Projects = () => {
           </CardFooter>
         </Card>
 
-        <Card className="mt-6 w-96 mb-6 mx-4">
+        <Card data-aos="zoom-in" className="mt-6 w-96 mb-6 mx-4">
           <CardHeader color="blue-gray" className="relative h-56">
             <img src={watodoo} alt="card-image" />
           </CardHeader>
@@ -57,7 +54,9 @@ const Projects = () => {
               Watodoo
             </Typography>
             <Typography>
-            A local community social media site with local restaurants search. Full-Stack app that uses JavaScript, Node.js, Express.js, MongoDB, Mongoose, Handlebars.js, and an Web-API.
+              A local community social media site with local restaurants search.
+              Full-Stack app that uses JavaScript, Node.js, Express.js, MongoDB,
+              Mongoose, Handlebars.js, and an Web-API.
             </Typography>
           </CardBody>
           <CardFooter className="pt-0 flex flex-row flex-wrap">
@@ -73,7 +72,7 @@ const Projects = () => {
           </CardFooter>
         </Card>
 
-        <Card className="mt-6 w-96 mb-6 mx-4">
+        <Card data-aos="zoom-in" className="mt-6 w-96 mb-6 mx-4">
           <CardHeader color="blue-gray" className="relative h-56">
             <img src={starraiders} alt="card-image" />
           </CardHeader>
@@ -82,7 +81,9 @@ const Projects = () => {
               Star Raiders Game
             </Typography>
             <Typography>
-            A simple space-shooter highest-score game built with Vanilla JavaScript, CSS, HTML, and DOM manipulation utilizing a Object-Oriented Programming method.
+              A simple space-shooter highest-score game built with Vanilla
+              JavaScript, CSS, HTML, and DOM manipulation utilizing a
+              Object-Oriented Programming method.
             </Typography>
           </CardBody>
           <CardFooter className="pt-0 flex flex-row flex-wrap">

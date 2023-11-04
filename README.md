@@ -1,1 +1,1 @@
-This is my Portfolio Project
+This is my Portfolio site. Created using React and my first time using Tailwind CSS.
