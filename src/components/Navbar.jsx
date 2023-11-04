@@ -11,7 +11,7 @@ const Navbar = () => {
         <Link to={"/"} className="cursor-pointer">
           <h3 className="text-2xl font-medium text-black-500">
             <span className="h-10 ml-6 object-cover hover:text-purple-500">
-              ANTHONYLARA
+              {'< ANTHONYLARA />'}
             </span>
           </h3>
         </Link>
@@ -47,7 +47,7 @@ const Navbar = () => {
         </Link>
 
         <Link
-          to={"/resume"}
+          to={"https://drive.google.com/file/d/1PhW5ezijbll84RfHag3IScxj-N7CmdtM/view?usp=drive_link"}
           className="hover:text-purple-500 transition hover:border-b-2 border-black hover:border-purple-500 cursor-pointer"
         >
           Resume

@@ -2,12 +2,13 @@ import img from "../assets/Me.jpg";
 import { Link } from "react-router-dom";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { Button } from "@material-tailwind/react";
 
 const Header = () => {
   return (
     <div
       id="Header"
-      className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center"
+      className="mb-10 mt-10 lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center"
     >
       <div className=" h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-black">
         <h1 className="text-[56px]">
@@ -35,11 +36,14 @@ const Header = () => {
             </div>
           </div>
         </div>
+        <Link to={"https://drive.google.com/file/d/1PhW5ezijbll84RfHag3IScxj-N7CmdtM/view?usp=drive_link"}>
+              <Button className="mt-4 hover:bg-purple-500">Resume</Button>
+            </Link>
       </div>
 
       <img
         src={img}
-        width={250}
+        width={350}
         className="rounded backdrop-blur-lg shadow-lg shadow-black"
         alt="Me"
       />
