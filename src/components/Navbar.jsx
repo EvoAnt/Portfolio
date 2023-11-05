@@ -1,4 +1,4 @@
-import { Link } from "react-scroll";
+import { Link, animateScroll as scroll } from "react-scroll";
 import { useState } from "react";
 import { FaTimes, FaBars } from "react-icons/fa";
 import { Button } from "@material-tailwind/react";
@@ -7,14 +7,18 @@ const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+
   return (
-    <nav className="flex justify-between py-4 bg-white backdrop-blur-md shadow-md shadow-purple-500 w-full top-0 left-0 right-0 z-10">
+    <nav className="flex justify-between py-4 bg-white backdrop-blur-md shadow-md shadow-purple-500 w-full fixed top-0 left-0 right-0 z-10">
       <div className="flex items-center">
-        <Link spy={true} smooth={true} to={"/"} className="cursor-pointer">
+        <a spy={true} smooth={true} onClick={scrollToTop} className="cursor-pointer">
           <h3 className="text-2xl font-medium text-black-500">
             <span className="h-10 ml-6 object-cover">{"< ANTHONYLARA />"}</span>
           </h3>
-        </Link>
+        </a>
       </div>
 
       <div className="sm:hidden">
@@ -81,6 +85,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           to={"Projects"}
+          offset={-80}
           className="hover:text-purple-500 transition hover:border-b-2 border-black hover:border-purple-500 cursor-pointer"
         >
           Projects

@@ -1,7 +1,7 @@
 const About = () => {
   return (
-    <div className="flex flex-col justify-center place-items-center gap-16 px-10">
-      <h2 data-aos="fade-right" id="About" className="text-[46px] underline underline-offset-4 text-center mt-28">
+    <div id="About" className="flex flex-col justify-center place-items-center gap-16 px-10">
+      <h2 data-aos="fade-right"  className="text-[46px] underline underline-offset-4 text-center mt-28">
         ABOUT <span className="text-purple-500">ME</span>
       </h2>
       <p data-aos="fade-left" className="items-center md:w-1/2 leading-loose">
