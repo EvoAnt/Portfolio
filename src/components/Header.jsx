@@ -28,16 +28,15 @@ const Header = () => {
       >
         <h1 className="text-[66px]">
           Hi i'm
-          <span className="text-purple-500">
-
-          <Typewriter
-            
-            options={{
-              strings: ["ANTHONY"],
-              autoStart: true,
-              loop: true,
-            }}
-          />
+          <br />
+          <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-400 inline-block text-transparent bg-clip-text">
+            <Typewriter
+              options={{
+                strings: [" ANTHONY"],
+                autoStart: true,
+                loop: true,
+              }}
+            />
           </span>
         </h1>
         <h2>Full-Stack Developer</h2>

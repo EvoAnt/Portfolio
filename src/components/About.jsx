@@ -7,7 +7,7 @@ const About = () => {
       <p data-aos="fade-left" className="items-center md:w-1/2 leading-loose">
         Hi i'm Anthony, I'm a long time tech enthusiast in the midst of an
         exciting career transition from Logistics/IT to Full Stack Development.
-        With a strong background in logistics and IT hardware management, I've
+        With a strong background in Logistics and IT hardware management, I've
         developed a solid foundation in problem-solving, organizational skills,
         and a keen eye for detail. Now, I'm channeling my passion for technology
         and programming to embark on a journey in Full Stack Development.
