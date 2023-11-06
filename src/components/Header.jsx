@@ -27,9 +27,9 @@ const Header = () => {
         className=" h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-black"
       >
         <h1 className="text-[66px]">
-          Hi i'm
+          Hi i'm,
           <br />
-          <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-400 inline-block text-transparent bg-clip-text">
+          <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-black inline-block text-transparent bg-clip-text">
             <Typewriter
               options={{
                 strings: [" ANTHONY"],
@@ -66,7 +66,7 @@ const Header = () => {
             "https://drive.google.com/file/d/1PhW5ezijbll84RfHag3IScxj-N7CmdtM/view?usp=drive_link"
           }
         >
-          <Button className="mt-4 hover:bg-purple-500">Resume</Button>
+          <Button className="mt-4 bg-gradient-to-r from-indigo-500 via-purple-500 inline-block">Resume</Button>
         </Link>
       </div>
 

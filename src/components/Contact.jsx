@@ -9,7 +9,7 @@ const Contact = () => {
         <p className="text-purple-500 font-semibold mb-5">Looking for new opportunities</p>
 
        <button
-      className="bg-black hover:bg-purple-500 text-white font-bold py-4 px-8 rounded focus:outline-none focus:shadow-outline"
+      className="bg-black hover:bg-indigo-500 text-white font-bold py-4 px-8 rounded focus:outline-none focus:shadow-outline"
       onClick={sendEmail}
     >
       Contact
