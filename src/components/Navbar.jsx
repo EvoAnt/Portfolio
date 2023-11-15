@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex justify-between py-4 bg-white backdrop-blur-md shadow-md shadow-purple-500 w-full fixed top-0 left-0 right-0 z-10">
+    <nav className="flex justify-between py-4 bg-transparent backdrop-blur-md shadow-md shadow-purple-500 w-full fixed top-0 left-0 right-0 z-10">
       <div className="flex items-center">
         <a spy={true} smooth={true} onClick={scrollToTop} className="cursor-pointer">
           <h3 className="text-2xl font-medium text-black-500">
