@@ -65,6 +65,7 @@ const Header = () => {
           to={
             "https://drive.google.com/file/d/1PhW5ezijbll84RfHag3IScxj-N7CmdtM/view?usp=drive_link"
           }
+          target="_blank"
         >
           <Button className="mt-4 bg-gradient-to-r from-indigo-500 via-purple-500 inline-block">Resume</Button>
         </Link>

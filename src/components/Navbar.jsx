@@ -104,6 +104,7 @@ const Navbar = () => {
           href={
             "https://drive.google.com/file/d/1PhW5ezijbll84RfHag3IScxj-N7CmdtM/view?usp=drive_link"
           }
+          target="_blank"
           className="hover:text-purple-500 transition hover:border-b-2 border-black hover.border-purple-500 cursor-pointer"
         >
           Resume
